@@ -17,7 +17,8 @@ public class Main {
 
         String respuesta = "s";
         while (respuesta.equals("s")) {
-            System.out.println(" ingrese al perfil que desea 1=Accountant,2=Watchman,3=CleaningStaff,4=Admin,5=mostrarAdmin,6=MostrarcleaminigStaff,7=mostrarwhatchman,8=mostrar Accountant");
+            System.out.println(" ingrese al perfil que desea 1=Accountant,2=Watchman,3=CleaningStaff,4=Admin\n  5=mostrarAdmin,6=MostrarcleaminigStaff,7=mostrarwhatchman,8=mostrar Accountant");
+
             int option = Integer.parseInt(entrada.nextLine());
 
             if (option == 1) {
